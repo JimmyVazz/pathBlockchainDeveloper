@@ -14,16 +14,33 @@ Para resumir blockchain podemos decir de forma exacta que es:
 Nos centraremos en la red blockchain ***ethereum*** la cual esta siendo muy potenciada por la comunidad y la cual nos deja desplegar scripts llamados ***"Smart Contracts".***  
 
 No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré donde leer, donde aprender y que usar para desarrollar 🔥.
-
+<a name="top"> </a>
 ## Contenido
-1.  ***Funcionamiento de Ethereum***
-2.  **Smart Contracts**
-3.  ***Solidity***
-4.  ***Herramientas de desarrollo***
-5.  ***Redes de prueba***
-6.  ***Foros de ayuda***
-7. ***Buenas prácticas***
-8.  ***¿Dónde trabajar y de qué trabajar?***
+* [Funcionamiento de Ethereum](#item1)
+* [Smart Contracts](#item2)
+* [Solidity](#item3)
+* [Herramientas de desarrollo](#item4)
+* [Redes de prueba](#item5)
+* [Foros de ayuda](#item6)
+* [Buenas prácticas](#item7)
+* [¿Dónde trabajar y de qué trabajar?](#item8)
+<a name="item1"></a>
+### Funcionamiento de ethereum
+<a name="item2"></a>
+### Smart Contracts
+<a name="item3"></a>
+### Solidity
+<a name="item4"></a>
+### Herramientas de desarrollo
+<a name="item5"></a>
+### Redes de prueba
+<a name="item6"></a>
+### Foros de ayuda
+<a name="item7"></a>
+### Buenas prácticas
+<a name="item8"></a>
+### ¿Dónde trabajar y de qué trabajar?
 
 
+[Subir](#top)
 
