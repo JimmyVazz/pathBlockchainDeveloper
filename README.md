@@ -26,13 +26,14 @@ No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré dond
 * [¿Dónde trabajar y de qué trabajar?](#item8)
 <a name="item1"></a>
 ### Funcionamiento de ethereum
-![Ethereum](https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png)
+![Ethereum](https://quesoncriptomonedas.org/wp-content/uploads/2018/09/ethereum_logo.jpg)
 Ethereum es parte de lo que se llama Blockchain 2.0, integrando programas llamados "Smart Contracts" que veremos en el siguiente bloque. Tiene el mismo protocolo de consenso como Bitcoin: ***Proof of work*** pero ya esta en camino la actualización que nos dará ***Proof of Stake***, la cuál saldrá en Ethereum 2.0 a mediados de año . Junto con su propia criptomoneda llamada ETH y su EVM, constituyen una super red que esta siendo usada por miles de devs para construir D'apps (aplicaciones descentralizadas).
 
 Los conceptos más importantes que debes aprender son:
-1. [Gas]([https://medium.com/astec/entendiendo-el-gas-en-ethereum-e77a6f30090f](https://medium.com/astec/entendiendo-el-gas-en-ethereum-e77a6f30090f))
-2. [Ethereum Virtual Machine]([https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/](https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/))
-3. [Ether (ETH)]([https://blockgeeks.com/guides/es/que-es-ethereum/](https://blockgeeks.com/guides/es/que-es-ethereum/))
+1. [Gas](https://medium.com/astec/entendiendo-el-gas-en-ethereum-e77a6f30090f)
+2. [Ethereum Virtual Machine](https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/)
+3. [Ether (ETH)](https://blockgeeks.com/guides/es/que-es-ethereum/)
+4. [Tokens](https://es.cointelegraph.com/explained/what-is-a-token-and-how-does-it-work)
 #### ¿Dónde estar al día?
 1. El mejor lugar para estar al tanto de las noticias y cosas por venir es en la página oficial de  [Ethereum](https://ethereum.org/)
 2. También te recomiendo seguir la [DevCon](https://archive.devcon.org/) la conferencia anual de desarrolladores ethereum. 
@@ -41,12 +42,63 @@ Los conceptos más importantes que debes aprender son:
 <a name="item2"></a>
 ### Smart Contracts
 ![Smart Contract](https://miro.medium.com/max/800/1*dZ5WRGrGQ5nQFkHV3iBzSA.jpeg)
+Un SM es un programa que se ejecuta en la EVM y una vez deployado en la red, ya no puede ser modificado. Son usados debido a que su funcionamiento es automatizado y de acuerdo a los parámetros que recibe de la misma red se ejcuta tal y como fue programado. Por ejemplo:
+1. Simplemente el funcionamiento de las transacciones de ETH fueron escritas en un SM.
+2. Las apuestas virtuales son escritas con un SM, para que al ganador directamente se le depositen los fondos.
+3. Ayuda a la creación de tokens (activos virtuales)
 
+Puedes leer más y tener una perspectiva más clara en este [blog](https://es.cointelegraph.com/explained/what-is-a-smart-contract)
 
 <a name="item3"></a>
 ### Solidity
 ![Solidity](https://i2.wp.com/cryptohabanero.com/wp-content/uploads/2018/10/400px-Solidity.png?fit=400%2C165&ssl=1)
 
+Solidity es un lenguaje de programación orientado a objetos para escribir contratos inteligentes. Podemos decir que es una fusión entre JavaScript y Go. En Solidity tienes acceso tipos de datos diferentes como:
+1. Integers
+2. Booleans
+3. Address
+4. Strings
+5. Contract
+6. Estructuras de datos como: Arrays, Mappings.
+
+Los que más debemos aprender y tener en cuenta son los address, contracts y mappings. Ya que, estos son los que son capaces de guardar las direcciones de wallets de otros usuarios y tienen la funcion de enviar o recibir eth.
+Ejemplo:
+```
+pragma solidity >=0.4.22 <0.7.0;  //Versión, hay que tener en cuenta que de acuerdo a como declaremos la versión de compilador solo podrá correr en esas condiciones
+
+/**
+ * @title Storage
+ * @Guarda y retorna el valor en una variable
+ */
+contract Storage {    //Clase Padre Storage que es de tipo contract
+
+    uint256 number;    //Variable que guarda el valor 
+
+    /**
+     * @ guarda el valor
+     * @param number 
+     */
+    function store(uint256 num) public {    //Funcion publica que recibe un valor y lo guarda
+        number = num;
+    }
+
+    /**
+     * @dev Return value 
+     * @return value of 'number'
+     */
+    function retreive() public view returns (uint256){   //Funcion publica que retorna el valor guardado
+        return number;
+    }
+}
+
+```
+La sintáxis puede parecerte rara o dificil, pero solo es un ejemplo de como se crea un SM. Ahora lo importante es saber donde aprender:
+1. [Documentación oficial](https://solidity.readthedocs.io/)
+2.  [Solidity Essentialls Book](https://arxiv.org/pdf/1905.01659)
+3. Repositorio [GitHub]([https://github.com/ethereum/solidity](https://github.com/ethereum/solidity))
+
+#### CriptoZombies
+Es un juego interactivo para aprender a crear SM y D'apps. Es el que más recomiendo. Puedes jugarlo en [CriptoZombies](https://cryptozombies.io/es/)
 
 <a name="item4"></a>
 ### Herramientas de desarrollo
