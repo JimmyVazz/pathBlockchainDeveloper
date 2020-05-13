@@ -26,6 +26,18 @@ No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré dond
 * [¿Dónde trabajar y de qué trabajar?](#item8)
 <a name="item1"></a>
 ### Funcionamiento de ethereum
+![Ethereum](https://upload.wikimedia.org/wikipedia/commons/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png)
+Ethereum es parte de lo que se llama Blockchain 2.0, integrando programas llamados "Smart Contracts" que veremos en el siguiente bloque. Tiene el mismo protocolo de consenso como Bitcoin: ***Proof of work*** pero ya esta en camino la actualización que nos dará ***Proof of Stake***, la cuál saldrá en Ethereum 2.0 a mediados de año . Junto con su propia criptomoneda llamada ETH y su EVM, constituyen una super red que esta siendo usada por miles de devs para construir D'apps (aplicaciones descentralizadas).
+
+Los conceptos más importantes que debes aprender son:
+1. [Gas]([https://medium.com/astec/entendiendo-el-gas-en-ethereum-e77a6f30090f](https://medium.com/astec/entendiendo-el-gas-en-ethereum-e77a6f30090f))
+2. [Ethereum Virtual Machine]([https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/](https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/))
+3. [Ether (ETH)]([https://blockgeeks.com/guides/es/que-es-ethereum/](https://blockgeeks.com/guides/es/que-es-ethereum/))
+
+-El mejor lugar para estar al tanto de las noticias y cosas por venir es en la página oficial de  [Ethereum]([https://ethereum.org/](https://ethereum.org/)).
+-También te recomiendo seguir la [DevCon]([https://archive.devcon.org/](https://archive.devcon.org/)), la conferencia anual de desarrolladores ethereum. 
+-Y por último seguir a su creador [Vitalik Buterin]([https://twitter.com/vitalikbuterin?lang=es](https://twitter.com/vitalikbuterin?lang=es)) que siempre publcia blogs o noticias. 
+
 <a name="item2"></a>
 ### Smart Contracts
 <a name="item3"></a>
