@@ -34,9 +34,9 @@ Los conceptos más importantes que debes aprender son:
 2. [Ethereum Virtual Machine]([https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/](https://criptotendencia.com/2018/05/13/ethereum-virtual-machine-una-caracteristica-que-hace-unica-a-ethereum/))
 3. [Ether (ETH)]([https://blockgeeks.com/guides/es/que-es-ethereum/](https://blockgeeks.com/guides/es/que-es-ethereum/))
 
--El mejor lugar para estar al tanto de las noticias y cosas por venir es en la página oficial de  [Ethereum]([https://ethereum.org/](https://ethereum.org/)).
--También te recomiendo seguir la [DevCon]([https://archive.devcon.org/](https://archive.devcon.org/)), la conferencia anual de desarrolladores ethereum. 
--Y por último seguir a su creador [Vitalik Buterin]([https://twitter.com/vitalikbuterin?lang=es](https://twitter.com/vitalikbuterin?lang=es)) que siempre publcia blogs o noticias. 
+*El mejor lugar para estar al tanto de las noticias y cosas por venir es en la página oficial de  [Ethereum]([https://ethereum.org/](https://ethereum.org/)).
+*También te recomiendo seguir la [DevCon]([https://archive.devcon.org/](https://archive.devcon.org/)), la conferencia anual de desarrolladores ethereum. 
+*Y por último seguir a su creador [Vitalik Buterin]([https://twitter.com/vitalikbuterin?lang=es](https://twitter.com/vitalikbuterin?lang=es)) que siempre publcia blogs o noticias. 
 
 <a name="item2"></a>
 ### Smart Contracts
