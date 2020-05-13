@@ -11,7 +11,7 @@ Para resumir blockchain podemos decir de forma exacta que es:
 >Conjunto de tecnologias que sirven para mover un activo o valor de un lugar a otro, sin la necesidad de un intermediario a través de una red distribuida de varios puntos a la vez 👍
 
 
-Nos centraremos en la red blockchain ***ethereum*** la cual esta siendo muy potenciada por la comunidad y la cual nos deja desplegar scripts llamados ***"Smart Contracts".***  
+Nos centraremos en la red blockchain ***ethereum*** la cual esta siendo muy potenciada por la comunidad y la cual nos deja desplegar scripts llamados ***"Smart Contracts".***  Y aprenderemos como crear D'apps.
 
 No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré donde leer, donde aprender y que usar para desarrollar 🔥.
 <a name="top"> </a>
@@ -21,7 +21,7 @@ No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré dond
 * [Solidity](#item3)
 * [Herramientas de desarrollo](#item4)
 * [Redes de prueba](#item5)
-* [Foros de ayuda](#item6)
+* [Empresas referentes en Blockchain](#item6)
 
 <a name="item1"></a>
 ### Funcionamiento de ethereum
@@ -125,17 +125,37 @@ Si solo quieres conectar tu frontend puedes usar [Web3 JS](https://github.com/et
 ### Redes de prueba
 ![Metamask](https://miro.medium.com/max/800/1*QbMVQ5j_8XicEJX9-cLP1w.png)
 
+Antes de iniciar, es necesario tener una wallet. ¿Que es eso? Simplemente es una cartera donde guardas tu llave publica y privada para acceder a la red. 
+[Metamask](https://metamask.io/) es una wallet y también un gateway para D'apps. Puedes descargar facilmente su extension para chrome, crear una wallet o importar una propia.
+
+### ¿Qué son las redes de prueba?
+![Redes](https://miro.medium.com/max/1232/1*t-0O5s7MjdOp9EANKvU34w.png)
+
+Con las herramientas que ya mencionamos podemos desarrollar diferentes aplicaciones, pero para montar nuestro SM en ethereum necesitamos pagar gas. Tal vez tenemos ether o no, asi que podemos optar por crear una red BL de prueba y conectarla con Metamask o usar las que tienen por defecto como lo son:
+1. Ropsten
+2. Koban
+3. Rinkeby
+
+En estas redes podemos pedir de forma gratuita un ether al día y con ese mismo desplegar nuestra app o SM en una subred de ethereum. Así podemos ver ethereum en todo su potencial. Solo hay que tener cuidado al deployar y ver en que red estamos, para no usar el saldo de nuestra red principal.
 
 <a name="item6"></a>
-### Foros de ayuda
+### Empresas referentes en Blockchain
 ![openzepellin](https://www.endeavor.org.ar/wp-content/uploads/2019/02/OZ_logo_color.svg)
 
+Una de las empresas más grandes en tecnología blockchain, auditoria y consultoría es [Open Zeppelin](https://openzeppelin.com/) y aparte están dentro de la aceleradora de Endeavor. 
+Siempre estan contratando y ellos mismos te capacitan para rendir las pruebas.
+Su [comunidad](https://forum.openzeppelin.com/) es de las más sobresalientes en apoyo con problemas de seguridad, programación y desarrollo.
 
+### CoinTelegraph
+![](https://getlogovector.com/wp-content/uploads/2019/10/cointelegraph-logo-vector.png)
+[CoinTelegraph](https://es.cointelegraph.com/) no es en sí una empresa consultora pero es la mayor fuente de noticias y blogs sobre todo lo relacionado al mundo Fintech, Ethereum, Bitcoin, tokens.
 
 [Subir](#top)
 
-## ¿Listo para ser desarrollador?
+## ¿Listo para ser desarrollador blockchain?
 Esta fue una guía básica para incursionar en el mundo de las D'apps y los SM, poco a poco puedes ir revisando cada recurso e ir aprendiendo.
 Gracias por leerlo y pronto iremos agregando más recursos. Recuerda que Ethereum 2.0 sale en Julio.
 
-Hecho por [JimmyVazz](github.com/JimmyVazz) con 💓
+***Posdata:*** Te dejo un vídeo super cool para entender las [D'apps](https://www.youtube.com/watch?v=XVZxjVJz4ds)
+
+Hecho por [JimmyVazz](github.com/JimmyVazz) con 💓 para la comunidad
