@@ -1,6 +1,6 @@
 # Ruta de aprendizaje de un desarrollador blockchain
 
-![Blockchain](https://i.blogs.es/b5ce90/blockchain2/450_1000.jpg)
+![Blockchain](https://www.welivesecurity.com/wp-content/uploads/2018/09/blockchain-que-es-como-funciona.jpg)
 
 En este 2020 uno de los temas centrales en tecnología sigue siendo blockchain y las empresas buscan de que manera implementarlo. Para eso ha crecido la demanda por desarrolladores que dominen y tengan los skills necesarios para integrarlo a proyectos. 
 
@@ -14,5 +14,6 @@ Para resumir blockchain podemos decir de forma exacta que es:
 Nos centraremos en la red blockchain ***ethereum*** la cual esta siendo muy potenciada por la comunidad y la cual nos deja desplegar scripts llamados ***"Smart Contracts".***
 
 ## Contenido
+
 
 
