@@ -22,11 +22,11 @@ No te enseñaré a fondo, sino que te mostrare el camino correcto, te diré dond
 * [Herramientas de desarrollo](#item4)
 * [Redes de prueba](#item5)
 * [Foros de ayuda](#item6)
-* [Buenas prácticas](#item7)
-* [¿Dónde trabajar y de qué trabajar?](#item8)
+
 <a name="item1"></a>
 ### Funcionamiento de ethereum
 ![Ethereum](https://quesoncriptomonedas.org/wp-content/uploads/2018/09/ethereum_logo.jpg)
+
 Ethereum es parte de lo que se llama Blockchain 2.0, integrando programas llamados "Smart Contracts" que veremos en el siguiente bloque. Tiene el mismo protocolo de consenso como Bitcoin: ***Proof of work*** pero ya esta en camino la actualización que nos dará ***Proof of Stake***, la cuál saldrá en Ethereum 2.0 a mediados de año . Junto con su propia criptomoneda llamada ETH y su EVM, constituyen una super red que esta siendo usada por miles de devs para construir D'apps (aplicaciones descentralizadas).
 
 Los conceptos más importantes que debes aprender son:
@@ -42,6 +42,7 @@ Los conceptos más importantes que debes aprender son:
 <a name="item2"></a>
 ### Smart Contracts
 ![Smart Contract](https://miro.medium.com/max/800/1*dZ5WRGrGQ5nQFkHV3iBzSA.jpeg)
+
 Un SM es un programa que se ejecuta en la EVM y una vez deployado en la red, ya no puede ser modificado. Son usados debido a que su funcionamiento es automatizado y de acuerdo a los parámetros que recibe de la misma red se ejcuta tal y como fue programado. Por ejemplo:
 1. Simplemente el funcionamiento de las transacciones de ETH fueron escritas en un SM.
 2. Las apuestas virtuales son escritas con un SM, para que al ganador directamente se le depositen los fondos.
@@ -95,7 +96,7 @@ contract Storage {    //Clase Padre Storage que es de tipo contract
 La sintáxis puede parecerte rara o dificil, pero solo es un ejemplo de como se crea un SM. Ahora lo importante es saber donde aprender:
 1. [Documentación oficial](https://solidity.readthedocs.io/)
 2.  [Solidity Essentialls Book](https://arxiv.org/pdf/1905.01659)
-3. Repositorio [GitHub]([https://github.com/ethereum/solidity](https://github.com/ethereum/solidity))
+3. Repositorio [GitHub](https://github.com/ethereum/solidity)
 
 #### CriptoZombies
 Es un juego interactivo para aprender a crear SM y D'apps. Es el que más recomiendo. Puedes jugarlo en [CriptoZombies](https://cryptozombies.io/es/)
@@ -104,7 +105,22 @@ Es un juego interactivo para aprender a crear SM y D'apps. Es el que más recomi
 ### Herramientas de desarrollo
 ![Truffle](https://blog.desdelinux.net/wp-content/uploads/2019/12/truffle-suite-herramientas-blockchain-imagen-destacada-blog-desdelinux-830x429.jpg)
 
+Existen varias formas de desarrollar SM y D'apps. Ahora que ya sabemos en que desarrollar y como, necesitamos saber donde. De primera mano se puede optar por instalar solidity en tu laptop y su interprete. Pero toda la comunidad prefiere usar [Remix](https://remix.ethereum.org/) el cúal es el IDE oficial para solidity. Es una plataforma web pero no por eso deja de ser potente, te permite:
+1. Debuggear en tiempo real
+2. Detecta errores de seguridad
+3. Detecta potenciales puertas traseras
+4. Integra proyectos locales de tu laptop
 
+Arriba te deje el link oficial, porqué hay una versión de Remix corriendo con http y esa esta deprecada. 
+
+#### ¿Como desarrollo D'apps con tecnología moderna?
+Hoy en día se usan muchos frameworks y librerias de primer nivel como Angular, React y Vue. Ahora la pregunta es como puedo integrar mi backend hecho en solidity con una de estas tecnologias. 
+Para eso existe [Truffle](https://www.trufflesuite.com/) que consta de tres herramientas para desarrollo de D'apps:
+1. [Truffle:](https://www.trufflesuite.com/truffle) Un entorno de desarrollo de clase mundial, un marco de pruebas y una reserva de activos para cadenas de bloques utilizando la Máquina Virtual de Ethereum (EVM), con el objetivo de facilitar la vida de los desarrolladores.
+2. [Ganache:](https://www.trufflesuite.com/ganache) Una blockchain para el desarrollo de Ethereum que puede utilizar para desplegar contratos, desarrollar sus aplicaciones y realizar pruebas. Está disponible tanto como una aplicación de escritorio como una herramienta de línea de comandos (anteriormente conocida como TestRPC). Ganache está disponible para Windows, Mac y Linux.
+3. [Drizle:](https://www.trufflesuite.com/drizzle) Una colección de librerías de front-end que hacen que la escritura de front-ends dapp sea más fácil y predecible. El núcleo de Drizzle está basado en una tienda Redux, así que tienes acceso a las espectaculares herramientas de desarrollo de Redux. Nos encargamos de sincronizar los datos de tu contrato, los datos de las transacciones y más.
+
+Si solo quieres conectar tu frontend puedes usar [Web3 JS](https://github.com/ethereum/web3.js) la API de Ethereum con JS. De esta manera puedes interactuar con wallets y mandar a traer información de Smart Contracts que ya estén desplegados en la red. Esa misma la puedes descargar desde NPM o Yarn.
 <a name="item5"></a>
 ### Redes de prueba
 ![Metamask](https://miro.medium.com/max/800/1*QbMVQ5j_8XicEJX9-cLP1w.png)
@@ -114,12 +130,12 @@ Es un juego interactivo para aprender a crear SM y D'apps. Es el que más recomi
 ### Foros de ayuda
 ![openzepellin](https://www.endeavor.org.ar/wp-content/uploads/2019/02/OZ_logo_color.svg)
 
-<a name="item7"></a>
-### Buenas prácticas
-![Remix](https://remix.ethereum.org/assets/img/sleepingRemiCroped.webp)
 
-<a name="item8"></a>
-### ¿Dónde trabajar y de qué trabajar?
-![BD](https://miro.medium.com/max/600/1*dUCWPN9nE1TG45Sd5aAsJg.png)
 
 [Subir](#top)
+
+## ¿Listo para ser desarrollador?
+Esta fue una guía básica para incursionar en el mundo de las D'apps y los SM, poco a poco puedes ir revisando cada recurso e ir aprendiendo.
+Gracias por leerlo y pronto iremos agregando más recursos. Recuerda que Ethereum 2.0 sale en Julio.
+
+Hecho por [JimmyVazz](github.com/JimmyVazz) con 💓
